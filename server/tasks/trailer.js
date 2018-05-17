@@ -24,6 +24,7 @@ const { resolve } = require('path')
     })
 
     child.on('message', data => {
+        // https://img1.doubanio.com/view/photo/l_ratio_poster/public/p2512717509.jpg
         console.log(29, data)
     })
 })()
